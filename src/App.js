@@ -3,6 +3,7 @@ import './App.css';
 import Home from './components/Home';
 import React from 'react';
 import Footer from './components/Footer';
+import FormLogin from './components/FormLogin';
 
 function App() {
 
@@ -27,8 +28,10 @@ function App() {
 
   return (
       <>
+      {/* Button trigger modal */}
+        {/* <FormLogin /> */}
         {/* {elements} */}
-        <div className="content" id="content">
+        {/* <div className="content" id="content">
           <h1 className="title" style={style}>{welcome}</h1>
           <h2>Hello React JS</h2>
           <h3>Hello React JS</h3>
@@ -50,7 +53,7 @@ function App() {
             showMsg(e.target.innerText)
           }}>Click me</button>
         </div>
-        <Footer />
+        <Footer /> */}
       </>
   );
 }
